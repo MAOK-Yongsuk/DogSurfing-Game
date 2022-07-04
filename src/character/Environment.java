@@ -51,7 +51,7 @@ public class Environment {
 		public BufferedImage getImage() {
 			BufferedImage image = null;
 			try {
-				 image = ImageIO.read(new File("C:\\Users\\HP\\OneDrive\\[-{MAOK}-]\\[-Workings\\JAVA_Game01\\img\\cloud.png"));
+				 image = ImageIO.read(new File("C:\\Users\\HP\\OneDrive\\[-{MAOK}-]\\[-Workings\\JAVA_Game01\\img\\cloud2.png"));
 				 return image;
 			} catch (Exception e) {
 				e.printStackTrace();

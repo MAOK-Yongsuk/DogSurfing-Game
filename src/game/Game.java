@@ -67,8 +67,9 @@ public class Game extends JPanel implements KeyListener{
           g2.drawImage(ImageIO.read(new File("C:\\Users\\HP\\OneDrive\\[-{MAOK}-]\\[-Workings\\JAVA_Game01\\img\\bgg.jpg"))
           ,0,308,985,300, null);
 
+          //---- cloud ----
           for(Environment item:envSet) {
-               g2.drawImage(item.getImage(),item.x,item.y,250,160, null);
+               g2.drawImage(item.getImage(),item.x,item.y,400,160, null);
           }
      }
 
@@ -87,7 +88,7 @@ public class Game extends JPanel implements KeyListener{
 		Environment[] envSet = new Environment[size];
 		int far = 0;
 		for(int i=0;i<size;i++) {
-			envSet[i] = new Environment(xStart+far,20,this,eType,8);
+			envSet[i] = new Environment(xStart+far,30,this,eType,8);
 			far+=600;
 		}
 		return envSet;
